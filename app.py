@@ -13,7 +13,13 @@ st.markdown("""
     /* Background */
     .stApp {
         background-color: #f0f7ff;
-        padding-left: 600px;
+        padding: 10px;
+    }
+    /* Responsive container */
+    .main-container {
+        max-width: 1100px;
+        margin: auto;
+        padding: 15px;
     }
     /* Headings */
     h2, h3 {
@@ -37,23 +43,37 @@ st.markdown("""
         color: #666;
         margin-top: 30px;
     }
+    /* Responsive Image */
+    .logo-img {
+        max-width: 100%;
+        height: auto;
+    }
+    @media (max-width: 768px) {
+        .stColumn {
+            width: 100% !important;
+            display: block;
+        }
+    }
     </style>
 """, unsafe_allow_html=True)
 
 # ============ HEADER WITH LOGO ============
-col1, col2 = st.columns([3,5])
-with col1:
-    st.image("nfsu emblem logo.png", width=500)  # Add your logo file in the same folder
-with col2:
-    st.markdown("""
-    ## National Forensic Sciences University, Goa Campus  
-    ### Research and Skills Development Program (RSDP)  
-    **AI in Cyber Security and Forensic Science**  
-    📅 *08-10 September, 2025* | ⏳ *3 Days* | 🌐 *Hybrid Mode*  
-    """)
+with st.container():
+    col1, col2 = st.columns([2,5])
+    with col1:
+        st.image("nfsu emblem logo.png", use_container_width=True)  # responsive logo
+    with col2:
+        st.markdown("""
+        ## National Forensic Sciences University, Goa Campus  
+        ### Research and Skills Development Program (RSDP)  
+        **AI in Cyber Security and Forensic Science**  
+        📅 *08-10 September, 2025* | ⏳ *3 Days* | 🌐 *Hybrid Mode*  
+        """)
+
 st.markdown("---")
-col1, col2 = st.columns([1,5])
-with col2:
+
+# Wrap all sections in a centered container
+with st.container():
     # ============ ABOUT SECTION ============
     st.subheader("📌 About the Program")
     st.write("""
