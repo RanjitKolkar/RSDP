@@ -125,7 +125,7 @@ with st.container():
         st.markdown("""
         **Day 3: Emerging Trends and Practical Insights**  
         - *10:00 – 11:30 AM*: **Deep Learning for Cybercrime Investigation** – Dr. Ranjit Kolkar  
-        - *11:45 – 1:15 PM*: **AI-Ethics and Legal Challenges** – Dr. Naveen Kumar Choudhary    
+        - *11:45 – 1:15 PM*: ** AI: Ethics, Law, and Responsibility** – Dr. Naveen Kumar Choudhary    
         - *2:30 – 4:00 PM*: **Panel Discussion & Valedictory** – Curated Panel Members  
         """)
 
