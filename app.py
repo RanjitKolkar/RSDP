@@ -146,26 +146,26 @@ with st.container():
     - 💻 Online Participants: INR 250  
     - 🌍 International Participants: $25  
     """)
-
     st.info("👉 Please complete your registration using the link below:")
 
-    if st.button("📌 Register Here"):
-        st.markdown(
-              """
-    <a href="https://forms.gle/ajJs932f9EbnXm1W9" target="_blank">
-        <button style="
-            background-color:#1E90FF;
-            color:white;
-            border:none;
-            padding:12px 24px;
-            border-radius:8px;
-            font-size:16px;
-            cursor:pointer;">
-            📌 Register Here
-        </button>
-    </a>
-    """,unsafe_allow_html=True
-        )
+    st.markdown(
+        """
+        <a href="https://forms.gle/ajJs932f9EbnXm1W9" target="_blank">
+            <button style="
+                background-color:#1E90FF;
+                color:white;
+                border:none;
+                padding:12px 24px;
+                border-radius:8px;
+                font-size:16px;
+                cursor:pointer;">
+                📌 Register Here
+            </button>
+        </a>
+        """,
+        unsafe_allow_html=True
+    )
+
 
     # ============ ORGANIZING COMMITTEE ============
     st.subheader("👥 Organizing Committee")
