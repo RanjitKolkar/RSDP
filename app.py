@@ -147,13 +147,14 @@ with st.container():
     - 🌍 International Participants: $25  
     """)
 
-   st.info("👉 Please complete your registration using the link below:")
+    st.info("👉 Please complete your registration using the link below:")
 
     if st.button("📌 Register Here"):
         st.markdown(
             '<meta http-equiv="refresh" content="0; url=https://forms.gle/ajJs932f9EbnXm1W9">',
             unsafe_allow_html=True
         )
+
     # ============ ORGANIZING COMMITTEE ============
     st.subheader("👥 Organizing Committee")
     st.markdown("""
