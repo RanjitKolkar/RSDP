@@ -151,8 +151,20 @@ with st.container():
 
     if st.button("📌 Register Here"):
         st.markdown(
-            '<meta http-equiv="refresh" content="0; url=https://forms.gle/ajJs932f9EbnXm1W9">',
-            unsafe_allow_html=True
+              """
+    <a href="https://forms.gle/ajJs932f9EbnXm1W9" target="_blank">
+        <button style="
+            background-color:#1E90FF;
+            color:white;
+            border:none;
+            padding:12px 24px;
+            border-radius:8px;
+            font-size:16px;
+            cursor:pointer;">
+            📌 Register Here
+        </button>
+    </a>
+    """,unsafe_allow_html=True
         )
 
     # ============ ORGANIZING COMMITTEE ============
