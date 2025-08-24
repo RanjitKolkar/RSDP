@@ -108,7 +108,7 @@ with st.container():
     with tabs[0]:
         st.markdown("""
         **Day 1: Foundations of AI in Cybersecurity and Forensics**  
-        - *10:00 – 11:30 AM*: **Inauguration & Keynote** – Eminent Expert / Chief Guest  
+        - *10:00 – 11:30 AM*: **Inauguration & Keynote** – Dr. J. M. Vyas, Honorable Vice-Chancellor, NFSU Gandhinagar  
         - *11:45 – 1:10 PM*: **Introduction to AI Cyber Security and Forensics** – Dr. Ranjit Kolkar 
         - *2:30 – 4:00 PM*: **Hands-On Introduction to AI** – Dr. Ranjit Kolkar  
         """)
@@ -125,7 +125,7 @@ with st.container():
         st.markdown("""
         **Day 3: Emerging Trends and Practical Insights**  
         - *10:00 – 11:30 AM*: **Deep Learning for Cybercrime Investigation** – Dr. Ranjit Kolkar  
-        - *11:45 – 1:15 PM*: ** AI: Ethics, Law, and Responsibility** – Dr. Naveen Kumar Choudhary    
+        - *11:45 – 1:15 PM*: **AI: Ethics, Law, and Responsibility** – Dr. Naveen Kumar Choudhary    
         - *2:30 – 4:00 PM*: **Panel Discussion & Valedictory** – Curated Panel Members  
         """)
 
@@ -154,7 +154,7 @@ with st.container():
     st.subheader("👥 Organizing Committee")
     st.markdown("""
     <div class="highlight-box">
-    <b>Chief Patron:</b> Dr. J. M. Vyas, Vice-Chancellor, NFSU Gandhinagar<br>
+    <b>Chief Patron:</b> Dr. J. M. Vyas, Honorable Vice-Chancellor, NFSU Gandhinagar<br>
     <b>Chair:</b> Dr. Naveen Kumar Choudhary, Director, NFSU Goa  <br>
     <b>Co-Chair:</b> Dr. Lokesh Chouhan, Dean Academics, NFSU Goa  <br>
     <b>Co-Ordinators:</b> Dr. Ranjit Kolkar and Inderbhan Singh, Assistant Professor, NFSU Goa  
