@@ -66,7 +66,7 @@ with st.container():
         st.markdown("""
         ## National Forensic Sciences University, Goa Campus  
         ### Research and Skills Development Program (RSDP)  
-        **AI in Cyber Security and Forensic Science**  
+        ## AI in Cyber Security and Forensic Science
         📅 *08-10 September, 2025* | ⏳ *3 Days* | 🌐 *Hybrid Mode*  
         """)
 
