@@ -109,23 +109,23 @@ with st.container():
         st.markdown("""
         **Day 1: Foundations of AI in Cybersecurity and Forensics**  
         - *10:00 – 11:30 AM*: **Inauguration & Keynote** – Dr. J. M. Vyas, Honorable Vice-Chancellor, NFSU Gandhinagar  
-        - *11:45 – 1:10 PM*: **Introduction to AI Cyber Security and Forensics** – Dr. Ranjit Kolkar 
-        - *2:30 – 4:00 PM*: **Hands-On Introduction to AI** – Dr. Ranjit Kolkar  
+        - *11:45 – 1:10 PM*: **Introduction to AI Cyber Security and Forensics** – Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa
+        - *2:30 – 4:00 PM*: **Hands-On Introduction to AI** – Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa
         """)
 
     with tabs[1]:
         st.markdown("""
         **Day 2: AI Applications in Digital Forensics**  
-        - *10:00 – 11:30 AM*: **AI in Crime Scene Management** – Dr. Naveen Kumar Choudhary  
-        - *11:45 – 1:15 PM*: **Applied Data Science in Cyber Security and Forensic Science** – Dr. Jovi D’ Silva  
+        - *10:00 – 11:30 AM*: **AI in Crime Scene Management** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa   
+        - *11:45 – 1:15 PM*: **Applied Data Science in Cyber Security and Forensic Science** – Dr. Jovi D’ Silva, Assistant Professor, NFSU Goa  
         - *2:30 – 4:00 PM*: **Hands-On Session: AI Tools and Usage** – Expert  
         """)
 
     with tabs[2]:
         st.markdown("""
         **Day 3: Emerging Trends and Practical Insights**  
-        - *10:00 – 11:30 AM*: **Deep Learning for Cybercrime Investigation** – Dr. Ranjit Kolkar  
-        - *11:45 – 1:15 PM*: **AI: Ethics, Law, and Responsibility** – Dr. Naveen Kumar Choudhary    
+        - *10:00 – 11:30 AM*: **Deep Learning for Cybercrime Investigation** – Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa
+        - *11:45 – 1:15 PM*: **AI: Ethics, Law, and Responsibility** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa     
         - *2:30 – 4:00 PM*: **Panel Discussion & Valedictory** – Curated Panel Members  
         """)
 
