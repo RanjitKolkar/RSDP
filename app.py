@@ -107,26 +107,32 @@ with st.container():
 
     with tabs[0]:
         st.markdown("""
-        **Day 1: Foundations of AI in Cybersecurity and Forensics**  
-        - *10:00 – 11:30 AM*: **Inauguration & Keynote** – Dr. J. M. Vyas, Hon'ble Vice-Chancellor, NFSU Gandhinagar  
-        - *11:45 – 1:10 PM*: **Introduction to AI Cyber Security and Forensics** – Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa
-        - *2:30 – 4:00 PM*: **Hands-On Introduction to AI** – Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa
+        **Day 1: Foundations of AI in Cybersecurity and Forensic Science**  
+        - **10:30 AM – 11:30 AM** : *Inauguration & Keynote: The Role of AI in Cybersecurity and Forensic Science* — Dr. J. M. Vyas, Hon’ble Vice Chancellor, NFSU  
+        - **11:30 AM – 12:00 PM** : *Tea Break*  
+        - **12:00 PM – 1:30 PM** : *Session 1: Introduction to AI in Cyber Security and Forensic Science* — Dr. Ranjit Kolkar, Assistant Professor  
+        - **01:30 PM – 02:30 PM** : Lunch Break  
+        - **2:30 PM – 4:00 PM** : *Session 2: Introduction to AI – Hands-on* — Dr. Ranjit Kolkar, Assistant Professor  
         """)
 
     with tabs[1]:
         st.markdown("""
         **Day 2: AI Applications in Digital Forensics**  
-        - *10:00 – 11:30 AM*: **AI based  Crime and Investigations** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa   
-        - *11:45 – 1:15 PM*: **Applied Data Science in Cyber Security and Forensic Science** – Dr. Jovi D’ Silva, Assistant Professor, NFSU Goa  
-        - *2:30 – 4:00 PM*: **Hands-On Session: AI Tools and Usage** – Expert  
+        - **10:30 AM – 11:30 AM** : *Session 3: AI-based Crime and Investigations* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
+        - **11:30 AM – 12:00 PM** : Tea Break  
+        - **12:00 PM – 1:30 PM** : *Session 4: Applied Data Science in Cyber Security and Forensic Science* — Dr. Jovi D’Silva, Assistant Professor  
+        - **01:30 PM – 02:30 PM** : Lunch Break  
+        - **2:30 PM – 4:00 PM** : *Session 5: Applications of AI Tools in Cyber Crime Investigation and Deep Fake Detection* — Expert  
         """)
 
     with tabs[2]:
         st.markdown("""
         **Day 3: Emerging Trends and Practical Insights**  
-        - *10:00 – 11:30 AM*: **Deep Learning for Cybercrime Investigation** – Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa
-        - *11:45 – 1:15 PM*: **Ethics in AI for Criminal Justice System** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa     
-        - *2:30 – 4:00 PM*: **Panel Discussion & Valedictory** – Curated Panel Members  
+        - **10:30 AM – 11:30 AM** : *Session 6: Deep Learning for Cybercrime Investigations* — Dr. Ranjit Kolkar, Assistant Professor  
+        - **11:30 AM – 12:00 PM** : Tea Break  
+        - **12:00 PM – 1:30 PM** : *Session 7: Ethics in AI for Criminal Justice System* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
+        - **01:30 PM – 02:30 PM** : Lunch Break  
+        - **2:30 PM – 4:00 PM** : *Panel Discussion: The Future of AI in Cybersecurity and Forensic Science* — Expert Panelists  
         """)
 
     # ============ OUTCOMES ============
@@ -136,6 +142,18 @@ with st.container():
     - Gain hands-on experience with AI tools and datasets.  
     - Encourage interdisciplinary research and curriculum development.  
     """)
+
+     # --- Registration Fees ---
+    st.markdown("## 💰 Registration Fees *(Includes Pen, Notepad, Tea, and Lunch)*")
+    st.markdown("""
+    - **Academicians / Govt. Professionals** : INR 1000  
+    - **Research Scholars** : INR 500  
+    - **Online Participants** : INR 500  
+    - **Industry Professionals** : INR 1500  
+    - **International Participants** : USD 25  
+    """)
+
+    st.info("👉 Note: Registration fee does not include accommodation and dinner.")
 
     # ============ REGISTRATION ============
     st.subheader("📝 Registration")
