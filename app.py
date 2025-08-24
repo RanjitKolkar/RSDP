@@ -65,7 +65,7 @@ with st.container():
     with col2:
         st.markdown("""
         ## National Forensic Sciences University, Goa Campus  
-        ### Research and Skills Development Program (RSDP)  
+        ### Research and Skills Development Programme (RSDP)  
         ## AI in Cyber Security and Forensic Science
         📅 *08-10 September, 2025* | ⏳ *3 Days* | 🌐 *Hybrid Mode*  
         """)
@@ -75,16 +75,16 @@ st.markdown("---")
 # Wrap all sections in a centered container
 with st.container():
     # ============ ABOUT SECTION ============
-    st.subheader("📌 About the Program")
+    st.subheader("📌 About the Programme")
     st.write("""
-    The **Three-Day Research and Skills Development Program (RSDP)** on  
+    The **Three-Day Research and Skills Development Programme (RSDP)** on  
     **"AI in Cyber Security and Forensic Science"** aims to equip faculty members, researchers,  
     and professionals with knowledge and insights into the transformative role of AI in  
     cybersecurity and forensic science.
     """)
 
     # ============ OBJECTIVES ============
-    st.subheader("🎯 Program Objectives")
+    st.subheader("🎯 Programme Objectives")
     st.markdown("""
     1. Introduce participants to the fundamentals of AI and its applications in forensic science.  
     2. Explore practical case studies and tools used in AI-driven forensic investigations.  
@@ -189,8 +189,8 @@ with st.container():
     st.subheader("👥 Organizing Committee")
     st.markdown("""
     <div class="highlight-box">
-    <b>Chief Patron:</b> Dr. J. M. Vyas, Hon'ble Vice-Chancellor, NFSU Gandhinagar<br>
-    <b>Chair:</b> Dr. Naveen Kumar Choudhary, Director, NFSU Goa  <br>
+    <b>Chief Patron:</b> Dr. J. M. Vyas, Hon'ble Vice-Chancellor, NFSU <br>
+    <b>Chair:</b> Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  <br>
     <b>Co-Chair:</b> Dr. Lokesh Chouhan, Dean Academics, NFSU Goa  <br>
     <b>Co-Ordinators:</b> Dr. Ranjit Kolkar and Dr. Inderbhan Singh, Assistant Professor, NFSU Goa  
     </div>
