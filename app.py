@@ -116,7 +116,7 @@ with st.container():
     with tabs[1]:
         st.markdown("""
         **Day 2: AI Applications in Digital Forensics**  
-        - *10:00 – 11:30 AM*: **AI in Crime Scene Management** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa   
+        - *10:00 – 11:30 AM*: **AI based  Crime and Investigations** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa   
         - *11:45 – 1:15 PM*: **Applied Data Science in Cyber Security and Forensic Science** – Dr. Jovi D’ Silva, Assistant Professor, NFSU Goa  
         - *2:30 – 4:00 PM*: **Hands-On Session: AI Tools and Usage** – Expert  
         """)
@@ -125,7 +125,7 @@ with st.container():
         st.markdown("""
         **Day 3: Emerging Trends and Practical Insights**  
         - *10:00 – 11:30 AM*: **Deep Learning for Cybercrime Investigation** – Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa
-        - *11:45 – 1:15 PM*: **AI: Ethics, Law, and Responsibility** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa     
+        - *11:45 – 1:15 PM*: **Ethics in AI for Criminal Justice System** – Dr. Naveen Kumar Choudhary, Director, NFSU Goa     
         - *2:30 – 4:00 PM*: **Panel Discussion & Valedictory** – Curated Panel Members  
         """)
 
