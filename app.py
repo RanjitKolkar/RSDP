@@ -151,8 +151,8 @@ with st.container():
 
     if st.button("📌 Register Here"):
         st.markdown(
-        '<meta http-equiv="refresh" content="0; url=https://forms.gle/ajJs932f9EbnXm1W9">',
-        unsafe_allow_html=True
+            '<meta http-equiv="refresh" content="0; url=https://forms.gle/ajJs932f9EbnXm1W9">',
+            unsafe_allow_html=True
         )
     # ============ ORGANIZING COMMITTEE ============
     st.subheader("👥 Organizing Committee")
