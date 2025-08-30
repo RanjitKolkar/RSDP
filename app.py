@@ -71,18 +71,6 @@ with st.container():
         """)
 
 st.markdown("---")
-def download_file_button(path: str, label: str = None):
-    p = Path(path)
-    if not p.exists():
-        st.error(f"File not found: {p}")
-        return
-    label = label or f"Download {p.name}"
-    mime, _ = mimetypes.guess_type(p.as_posix())
-    mime = mime or "application/octet-stream"
-    with open(p, "rb") as f:
-        st.download_button(label=label, data=f, file_name=p.name, mime=mime)
-
-
 
 # Wrap all sections in a centered container
 with st.container():
@@ -91,8 +79,7 @@ with st.container():
     st.write("""
     The **Three-Day Research and Skills Development Programme (RSDP)** on  **"AI in Cyber Security and Forensic Science"** aims to equip academic professionals, Forensic Professionals, research scholars and industrial professionals with knowledge and insights into the transformative role of AI in cybersecurity and forensic science.
     """)
-    # Call the function for your file
-    download_file_button("brochure.pdf", "📥 Download Programme Brochure")
+
 
     # ============ OBJECTIVES ============
     st.subheader("🎯 Programme Objectives")
