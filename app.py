@@ -77,8 +77,7 @@ with st.container():
     # ============ ABOUT SECTION ============
     st.subheader("📌 About the Programme")
     st.write("""
-    The **Three-Day Research and Skills Development Programme (RSDP)** on  **"AI in Cyber Security and Forensic Science"** aims to equip academic professionals, Forensic Professionals, research scholars,  
-    and industrial professionals with knowledge and insights into the transformative role of AI in cybersecurity and forensic science.
+    The **Three-Day Research and Skills Development Programme (RSDP)** on  **"AI in Cyber Security and Forensic Science"** aims to equip academic professionals, Forensic Professionals, research scholars and industrial professionals with knowledge and insights into the transformative role of AI in cybersecurity and forensic science.
     """)
 
     # ============ OBJECTIVES ============
