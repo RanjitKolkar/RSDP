@@ -77,10 +77,8 @@ with st.container():
     # ============ ABOUT SECTION ============
     st.subheader("📌 About the Programme")
     st.write("""
-    The **Three-Day Research and Skills Development Programme (RSDP)** on  
-    **"AI in Cyber Security and Forensic Science"** aims to equip faculty members, researchers,  
-    and professionals with knowledge and insights into the transformative role of AI in  
-    cybersecurity and forensic science.
+    The **Three-Day Research and Skills Development Programme (RSDP)** on  **"AI in Cyber Security and Forensic Science"** aims to equip academic professionals, Forensic Professionals, research scholars,  
+    and industrial professionals with knowledge and insights into the transformative role of AI in cybersecurity and forensic science.
     """)
 
     # ============ OBJECTIVES ============
@@ -98,7 +96,7 @@ with st.container():
     - 📜 RSDP Certificate from **National Forensic Sciences University**  
     - 🤝 Networking Opportunities  
     - 👨‍🏫 Learn from **Domain Experts**  
-    - 🧪 **Lab Visits** at NFSU Goa to explore well-equipped tools in Cyber Security and Forensics  
+    - 🧪 **Lab Visits** at NFSU Goa to explore tools in Cyber Security and Forensics  
     """)
 
     # ============ SCHEDULE ============
