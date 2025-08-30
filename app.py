@@ -64,7 +64,7 @@ with st.container():
         st.image("nfsu emblem logo.png", use_container_width=True)  # responsive logo
     with col2:
         st.markdown("""
-        ## National Forensic Sciences University, Goa Campus  
+        ### National Forensic Sciences University, Goa Campus  
         ### Research and Skills Development Programme (RSDP)  
         ## AI in Cyber Security and Forensic Science
         📅 *15-17 September, 2025* | ⏳ *3 Days* | 🌐 *Hybrid Mode*  
