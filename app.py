@@ -153,15 +153,7 @@ with st.container():
 
     st.info("👉 Note: Registration fee does not include accommodation. It includes a Tea and Lunch only")
 
-    # ============ REGISTRATION ============
-    st.subheader("📝 Registration")
-    st.markdown("""
-    **Registration Fees**  
-    - 🎓 Academic: INR 500  
-    - 📚 Research Scholar: INR 250  
-    - 💻 Online Participants: INR 250  
-    - 🌍 International Participants: $25  
-    """)
+    
     st.info("👉 Please complete your registration using the link below:")
 
     st.markdown(
