@@ -20,7 +20,7 @@ st.markdown(
         text-align:center;
         margin-bottom:20px;">
         ⚠️ This site is currently <b>under maintenance</b>.  
-        Some colors or features may not display correctly on all devices.
+        
     </div>
     """,
     unsafe_allow_html=True
