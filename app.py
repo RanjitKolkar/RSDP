@@ -1,61 +1,38 @@
 import streamlit as st
 
-# ============ PAGE CONFIG ============
 st.set_page_config(
     page_title="RSDP on AI in Cyber Security & Forensic Science",
     page_icon="🛡️",
-    layout="wide"
+    layout="wide",
+    initial_sidebar_state="auto"
 )
 
-# ============ CUSTOM CSS ============
+# Force theme override (works across devices)
 st.markdown("""
     <style>
-    /* Background */
-    .stApp {
-        background-color: #ffffff;
-        padding: 10px;
+    <meta name="color-scheme" content="light only">
+    :root {
+        --primary-color: #003366;
+        --background-color: #ffffff;
+        --text-color: #000000;
+        --secondary-text-color: #444444;
+        --highlight-color: #e6f0ff;
     }
-    /* Responsive container */
-    .main-container {
-        max-width: 1100px;
-        margin: auto;
-        padding: 15px;
+    /* Apply globally */
+    body, .stApp {
+        background-color: var(--background-color) !important;
+        color: var(--text-color) !important;
     }
-    /* Headings */
-    h2, h3 {
-        color: #003366 !important;
+    h1, h2, h3, h4, h5, h6 {
+        color: var(--primary-color) !important;
     }
-    /* Subheaders */
-    .stMarkdown h4 {
-        color: #004080 !important;
-    }
-    /* Info/Highlight Box */
     .highlight-box {
-        padding: 15px;
-        border-radius: 10px;
-        background-color: #e6f0ff;
-        border: 1px solid #99c2ff;
-    }
-    /* Footer */
-    .footer {
-        text-align: center;
-        font-size: 14px;
-        color: #666;
-        margin-top: 30px;
-    }
-    /* Responsive Image */
-    .logo-img {
-        max-width: 100%;
-        height: auto;
-    }
-    @media (max-width: 768px) {
-        .stColumn {
-            width: 100% !important;
-            display: block;
-        }
+        background-color: var(--highlight-color) !important;
+        border: 1px solid #99c2ff !important;
     }
     </style>
 """, unsafe_allow_html=True)
+
 
 # ============ HEADER WITH LOGO ============
 with st.container():
