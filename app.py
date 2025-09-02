@@ -12,7 +12,7 @@ st.markdown("""
     <style>
     /* Background */
     .stApp {
-        background-color: #f0f7ff;
+        
         padding: 10px;
     }
     /* Responsive container */
