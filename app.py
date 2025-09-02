@@ -19,7 +19,7 @@ st.markdown(
         font-size:16px;
         text-align:center;
         margin-bottom:20px;">
-        ⚠️ This site is currently <b>under maintenance</b>.  
+        ⚠️ This site is currently <b>under maintenance. We will get back to you shortly</b>.  
         
     </div>
     """,
