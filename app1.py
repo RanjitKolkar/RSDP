@@ -7,31 +7,74 @@ st.set_page_config(
     initial_sidebar_state="auto"
 )
 
-# Force theme override (works across devices)
+
+
+
+# --- Force consistent theme across all browsers/devices ---
 st.markdown("""
     <style>
-    <meta name="color-scheme" content="light only">
-    :root {
-        --primary-color: #003366;
-        --background-color: #ffffff;
-        --text-color: #000000;
-        --secondary-text-color: #444444;
-        --highlight-color: #e6f0ff;
+    /* Force light theme always */
+    html, body, [class*="st-"], .stApp {
+        background-color: #ffffff !important;
+        color: #000000 !important;
     }
-    /* Apply globally */
-    body, .stApp {
-        background-color: var(--background-color) !important;
-        color: var(--text-color) !important;
-    }
+
+    /* Headings */
     h1, h2, h3, h4, h5, h6 {
-        color: var(--primary-color) !important;
+        color: #003366 !important;
     }
-    .highlight-box {
-        background-color: var(--highlight-color) !important;
+
+    /* Info / success / warning boxes */
+    .stAlert {
+        background-color: #e6f0ff !important; /* light blue background */
+        color: #003366 !important; /* dark text */
         border: 1px solid #99c2ff !important;
+        border-radius: 8px;
+        padding: 10px;
+    }
+
+    /* Tabs */
+    div[data-baseweb="tab"] {
+        background-color: #f0f6ff !important;
+        color: #003366 !important;
+        border-radius: 6px 6px 0 0 !important;
+        padding: 8px 16px !important;
+        font-weight: 600;
+    }
+    div[data-baseweb="tab-list"] {
+        gap: 8px !important;
+    }
+    div[data-baseweb="tab"][aria-selected="true"] {
+        background-color: #003366 !important;
+        color: #ffffff !important;
+    }
+
+    /* Buttons */
+    .stButton button {
+        background-color: #1E90FF !important;
+        color: white !important;
+        border-radius: 8px !important;
+        border: none !important;
+        padding: 10px 20px !important;
+        font-size: 16px !important;
+        font-weight: 500 !important;
+    }
+    .stButton button:hover {
+        background-color: #0059b3 !important;
+    }
+
+    /* Footer */
+    .footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        color: #003366;
+        font-size: 14px;
     }
     </style>
 """, unsafe_allow_html=True)
+
+
 
 
 # ============ HEADER WITH LOGO ============
