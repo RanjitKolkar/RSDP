@@ -7,9 +7,6 @@ st.set_page_config(
     initial_sidebar_state="auto"
 )
 
-
-
-
 # --- Force consistent theme across all browsers/devices ---
 st.markdown("""
     <style>
@@ -91,7 +88,9 @@ with st.container():
         """)
 
 st.markdown("---")
+st.info("Last date to register for Oflline Mode is 05:00PM, 12-09-2025")
 
+   
 # Wrap all sections in a centered container
 with st.container():
     # ============ ABOUT SECTION ============
