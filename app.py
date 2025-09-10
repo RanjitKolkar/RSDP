@@ -207,4 +207,6 @@ with st.container():
 
 # ============ FOOTER ============
 st.markdown("---")
+st.markdown('<div class="footer">Contact <href>ranjit.kolkar@nfsu.ac.in</href> Mobile:8618879217</b></div>', unsafe_allow_html=True)
+
 st.markdown('<div class="footer">📍 Organized by <b>National Forensic Sciences University, Goa Campus</b></div>', unsafe_allow_html=True)
