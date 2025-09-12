@@ -120,37 +120,36 @@ with st.container():
 
     # ============ SCHEDULE ============
     st.subheader("📅 Tentative Schedule")
-    tabs = st.tabs(["Day 1", "Day 2", "Day 3"])
 
-    with tabs[0]:
-        st.markdown("""
-        **Day 1: Foundations of AI in Cybersecurity and Forensic Science**  
-        - **10:30 AM – 11:30 AM** : *Inauguration & Keynote: The Role of AI in Cybersecurity and Forensic Science* — Dr. J. M. Vyas, Hon’ble Vice Chancellor, NFSU  
-        - **11:30 AM – 12:00 PM** : *Tea Break*  
-        - **12:00 PM – 1:30 PM** : *Session 1: Introduction to AI in Cyber Security and Forensic Science* — Dr. Ranjit Kolkar, Assistant Professor  
-        - **01:30 PM – 02:30 PM** : Lunch Break  
-        - **2:30 PM – 4:00 PM** : *Session 2: Introduction to AI – Hands-on* — Dr. Ranjit Kolkar, Assistant Professor  
-        """)
+    st.markdown("""
+    **Day 1: Foundations of AI in Cybersecurity and Forensic Science**  
+    - **10:30 AM – 11:30 AM** : *Inauguration & Keynote: The Role of AI in Cybersecurity and Forensic Science* — Hon’ble Chief Guest  
+    - **11:30 AM – 12:00 PM** : *Tea Break*  
+    - **12:00 PM – 1:30 PM** : *Session 1: Introduction Forensic Science and Challenges* — Dr. Inderbhan Singh, Assistant Professor, NFSU Goa  
+    - **01:30 PM – 02:30 PM** : *Lunch Break*  
+    - **2:30 PM – 4:00 PM** : *Session 2: Introduction to Cyber Security and Artificial Intelligence* — Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa  
+    """)
 
-    with tabs[1]:
-        st.markdown("""
-        **Day 2: AI Applications in Digital Forensics**  
-        - **10:30 AM – 11:30 AM** : *Session 3: AI-based Crime and Investigations* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
-        - **11:30 AM – 12:00 PM** : Tea Break  
-        - **12:00 PM – 1:30 PM** : *Session 4: Applied Data Science in Cyber Security and Forensic Science* — Dr. Jovi D’Silva, Assistant Professor  
-        - **01:30 PM – 02:30 PM** : Lunch Break  
-        - **2:30 PM – 4:00 PM** : *Session 5: Applications of AI Tools in Cyber Crime Investigation and Deep Fake Detection* — Expert  
-        """)
 
-    with tabs[2]:
-        st.markdown("""
-        **Day 3: Emerging Trends and Practical Insights**  
-        - **10:30 AM – 11:30 AM** : *Session 6: Deep Learning for Cybercrime Investigations* — Dr. Ranjit Kolkar, Assistant Professor  
-        - **11:30 AM – 12:00 PM** : Tea Break  
-        - **12:00 PM – 1:30 PM** : *Session 7: Ethics in AI for Criminal Justice System* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
-        - **01:30 PM – 02:30 PM** : Lunch Break  
-        - **2:30 PM – 4:00 PM** : *Panel Discussion: The Future of AI in Cybersecurity and Forensic Science* — Expert Panelists  
-        """)
+    st.markdown("""
+    **Day 2: AI Applications in Digital Forensics**  
+    - **10:00 AM – 11:30 AM** : *Session 3: AI based Crime and Investigations* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
+    - **11:30 AM – 12:00 PM** : *Tea Break*  
+    - **12:00 PM – 1:30 PM** : *Session 4: Evolution of AI in Storage Media Forensics* — Dr. Nitesh K Bharadwaj, Assistant Professor, NIT Raipur  
+    - **01:30 PM – 02:30 PM** : *Lunch Break*  
+    - **2:30 PM – 4:00 PM** : *Session 5: Applied Data Science in Cyber Security and Forensic Science* — Dr. Jovi D’Silva, Assistant Professor  
+    """)
+
+
+    st.markdown("""
+    **Day 3: Emerging Trends and Practical Insights**  
+    - **10:00 AM – 11:30 AM** : *Session 6: Ethics in AI for Criminal Justice System* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
+    - **11:30 AM – 12:00 PM** : *Tea Break*  
+    - **12:00 PM – 1:30 PM** : *Session 7: Malware Analysis and AI* — Dr. Chirag Modi, Associate Professor, NIT Goa  
+    - **01:30 PM – 02:30 PM** : *Lunch Break*  
+    - **2:30 PM – 4:00 PM** : *Session 8: Applications of AI Tools in Cyber Crime Investigation and Deep Fake Detection* — Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa  
+    """)
+
 
     # ============ OUTCOMES ============
     st.subheader("✅ Expected Outcomes")
