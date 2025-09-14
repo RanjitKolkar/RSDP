@@ -88,7 +88,9 @@ with st.container():
         """)
 
 st.markdown("---")
-st.info("Last date to register for Oflline Mode is 05:00PM, 12-09-2025")
+st.info("Registration for both online and offline closes by 05:00 PM, 14-09-2025")
+
+st.info("Online link is shared to registered email. If you have not recevied, refer the contact details in the footer")
 
    
 # Wrap all sections in a centered container
@@ -123,31 +125,31 @@ with st.container():
 
     st.markdown("""
     **Day 1: Foundations of AI in Cybersecurity and Forensic Science**  
-    - **10:30 AM – 11:30 AM** : *Inauguration & Keynote: The Role of AI in Cybersecurity and Forensic Science* — Hon’ble Chief Guest  
-    - **11:30 AM – 12:00 PM** : *Tea Break*  
-    - **12:00 PM – 1:30 PM** : *Session 1: Introduction Forensic Science and Challenges* — Dr. Inderbhan Singh, Assistant Professor, NFSU Goa  
-    - **01:30 PM – 02:30 PM** : *Lunch Break*  
-    - **2:30 PM – 4:00 PM** : *Session 2: Introduction to Cyber Security and Artificial Intelligence* — Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa  
+    - **10:00 AM – 11:00 AM** : *Inauguration & Keynote: The Role of AI in Cybersecurity and Forensic Science* — Hon’ble Chief Guest  
+    - **11:00 AM – 11:30 AM** : *Tea Break*  
+    - **11:30 AM – 1:00 PM** : *Session 1: Introduction Forensic Science and Challenges* — Dr. Inderbhan Singh, Assistant Professor, NFSU Goa  
+    - **01:00 PM – 02:00 PM** : *Lunch Break*  
+    - **2:00 PM – 4:00 PM** : *Session 2: Introduction to Cyber Security and Artificial Intelligence* — Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa  
     """)
 
 
     st.markdown("""
     **Day 2: AI Applications in Digital Forensics**  
-    - **10:00 AM – 11:30 AM** : *Session 3: AI based Crime and Investigations* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
-    - **11:30 AM – 12:00 PM** : *Tea Break*  
-    - **12:00 PM – 1:30 PM** : *Session 4: Evolution of AI in Storage Media Forensics* — Dr. Nitesh K Bharadwaj, Assistant Professor, NIT Raipur  
-    - **01:30 PM – 02:30 PM** : *Lunch Break*  
-    - **2:30 PM – 4:00 PM** : *Session 5: Applied Data Science in Cyber Security and Forensic Science* — Dr. Jovi D’Silva, Assistant Professor  
+    - **10:00 AM – 11:00 AM** : *Session 3: AI based Crime and Investigations* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
+    - **11:00 AM – 11:30 AM** : *Tea Break*  
+    - **11:30 AM – 1:00 PM** : *Session 4: Evolution of AI in Storage Media Forensics* — Dr. Nitesh K Bharadwaj, Assistant Professor, NIT Raipur  
+    - **01:00 PM – 02:00 PM** : *Lunch Break*  
+    - **2:00 PM – 4:00 PM** : *Session 5: Applied Data Science in Cyber Security and Forensic Science* — Dr. Jovi D’Silva, Assistant Professor  
     """)
 
 
     st.markdown("""
     **Day 3: Emerging Trends and Practical Insights**  
-    - **10:00 AM – 11:30 AM** : *Session 6: Ethics in AI for Criminal Justice System* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
-    - **11:30 AM – 12:00 PM** : *Tea Break*  
-    - **12:00 PM – 1:30 PM** : *Session 7: Malware Analysis and AI* — Dr. Chirag Modi, Associate Professor, NIT Goa  
-    - **01:30 PM – 02:30 PM** : *Lunch Break*  
-    - **2:30 PM – 4:00 PM** : *Session 8: Applications of AI Tools in Cyber Crime Investigation and Deep Fake Detection* — Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa  
+    - **10:00 AM – 11:00 AM** : *Session 6: Ethics in AI for Criminal Justice System* — Prof. (Dr.) Naveen Kumar Chaudhary, Director, NFSU Goa  
+    - **11:00 AM – 11:30 AM** : *Tea Break*  
+    - **11:30 AM – 1:00 PM** : *Session 7: Malware Analysis and AI* — Dr. Chirag Modi, Associate Professor, NIT Goa  
+    - **01:00 PM – 02:00 PM** : *Lunch Break*  
+    - **2:00 PM – 4:00 PM** : *Session 8: Applications of AI Tools in Cyber Crime Investigation and Deep Fake Detection* — Dr. Ranjit Kolkar, Assistant Professor, NFSU Goa  
     """)
 
 
