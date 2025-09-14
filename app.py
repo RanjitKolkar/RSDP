@@ -86,13 +86,11 @@ with st.container():
         ## AI in Cyber Security and Forensic Science
         📅 *15-17 September, 2025* | ⏳ *3 Days* | 🌐 *Hybrid Mode*  
         """)
-
 st.markdown("---")
-st.info("Registration for both online and offline closes by 05:00 PM, 14-09-2025")
+st.info("Registration for both online and offline modes closes at 05:00 PM on 14-09-2025.")
 
-st.info("Online link is shared to registered email. If you have not recevied, refer the contact details in the footer")
-
-   
+st.info("The online link has been shared to the registered email. If you have not received it, please refer to the contact details in the footer.")
+ 
 # Wrap all sections in a centered container
 with st.container():
     # ============ ABOUT SECTION ============
